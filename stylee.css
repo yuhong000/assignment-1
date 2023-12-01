@@ -8,7 +8,7 @@ body {
   background-color: #ededed;
   color: rgb(0, 0, 0);
 }
-
+/*header*/
 #header{
 display:flex;
 align-items: center;
@@ -21,20 +21,20 @@ position: sticky;
 top: 0;
 left: 0;
 }
-
+/*nav bar with links in header*/
 #navbar{
   display:flex;
   align-items: center;
   justify-content: center;
 }
-
+/*nav bar links list*/
 #navbar li{
   list-style: none;
   padding: 0 40px;
   transition: 0.25s ease;
   position: relative;
 }
-
+/*nav bar link*/
 #navbar li a{
   text-decoration:none;
   font-size:20px;
@@ -42,86 +42,58 @@ left: 0;
   color:#84a2ac;
   transition: 0.3s ease;
 }
-
+/*hover effect*/
 #navbar li:hover {
   transform: scale(1.2);
 }
-
+/*hover effect*/
 #navbar li a:hover,
 #navbar li a.active{
   color:#537482;
 }
-
+/*make to default*/
 #mobile{
   display: none;
   align-items: center;
 }
-
+/*make to default*/
 #close{
   display: none;
 }
-
+/*logo*/
 #header img{
   width:auto;
   height:86px;
   border-radius: 13%;
   max-width: 100%;
 }
-
+/*banner pic*/
 #middle #background{
   height:50vh;
   width: 100%;
   background-size:cover ;
   background-position: top 25% right 0;
 }
-
-#middle h1,h2,h3{
+/*styling*/
+#middle h1, h2,h3{
   text-align: center;
   padding-left: 30px;
   font-size: 200%;
 }
-
+/*styling*/
 #middle h1{
   color:#537482;
   padding-bottom: 5px;
 }
-
+/*styling*/
 .section-pad1{
   padding:40px 80px;
 }
-
-#items .itembox{
-width:360px;
-text-align: center;
-padding: 25px 15px;
-background-color: white;
-box-shadow:20px 20px 34px rgba(0,0,0,0.06);
-border: 1px solid #7d7d7d;
-margin-bottom: 20px;
-border-radius: 5%;
-}
-
-#items .itembox:hover{
-  box-shadow:10px 10px 54px rgba(0, 0, 0, 0.3);
-}
-
-#items .itembox img{
-  width:260px;
-  height: 300px;
-  margin-bottom:10px;
-}
-
-#items {
-  display:flex;
-  align-items: center;
-  justify-content: space-between; 
-  flex-wrap: wrap;
-}
-/*feature product*/
+/*feature product text*/
 #product{
   text-align: center;
 }
-
+/*product inner container*/
 #product .pro{
   width:28%;
   min-width:250px;
@@ -134,43 +106,43 @@ border-radius: 5%;
   margin:15px 0 ;
   transition: 0.2s ease;
 }
-
+/*hover effect*/
 #product .pro:hover{
   box-shadow: 20px 20px 30px rgba(0,0,0,0.1);
 
 }
-
+/*products iamage*/
 #product .pro img{
   width: 100%;
   border-radius: 20px;
 }
-
+/*products description*/
 #product .pro .des{
   color: #537482;
   font-size: 32px;
   flex-direction: column;
 
 }
-
+/*products description*/
 #product .pro .des span{
   color: #000000;
   font-size:48px;
 }
-
+/*product outter container*/
 #product .pro-con{
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px ;
   justify-content:  space-between;
 }
-
+/*footer*/
 footer{
   display:flex  ;
   flex-wrap: wrap;
   justify-content: space-between;
 
 }
-
+/*footer text*/
 footer .col{
   display:flex;
   flex-direction: column;
@@ -178,7 +150,7 @@ footer .col{
   margin-bottom: 20px;
 }
 
-
+/*logo at footer*/
 footer .logo{
   margin-bottom: 10px;
   width:auto;
@@ -186,7 +158,7 @@ footer .logo{
   border-radius: 13%;
   max-width: 100%;
 }
-
+/*footer text*/
 footer h4{
   font-size: 32px;
   padding-bottom: 20px;
@@ -203,7 +175,7 @@ footer a{
   color: #000000 ;
   margin-bottom: 10px;
 }
-
+/*footer social media styling*/
 footer .social{
   margin-top:20px;
 }
@@ -213,18 +185,18 @@ footer .social i{
   padding-right: 4px;
   cursor: pointer;
 }
-
+/*hover effect*/
 footer .social i:hover,
 footer a:hover{
   color:#537482;
 }
-
+/*footer text*/
 footer .copyright{
   width:100%;
   text-align:center;
 
 }
-
+/*responsive*/
 @media screen and (max-width: 480px) {
   #navbar{
     display: flex;
@@ -241,7 +213,7 @@ footer .copyright{
     padding: 50px 0 0 10px;
     transition: 0.3s;
   }
-
+/*javascript*/
   #navbar.active{
     right: 0px;
   }
@@ -270,8 +242,6 @@ footer .copyright{
 #footer .copyright{
   text-align:start ;
 }
-
-
 
 }
 
